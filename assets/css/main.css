@@ -1,10 +1,7 @@
 *{
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Lato', sans-serif;
 }
-.index{
-    position: relative;
-    z-index: 99;
-}
+
 .secondarybgcolor{
     background-color:#FCCE01 !important;
 }
@@ -24,7 +21,6 @@ header{
     height:50em;
     width: 100%;
     background-size: cover;
-    /* background-repeat: no-repeat; */
 }
 .hr{
     position: absolute;
@@ -103,7 +99,6 @@ nav ul{
     color: #000000;
     font-size:20px;
     line-height: 24px;
-    letter-spacing: 3%;
 }
 .powershadow{
     box-shadow: 0px 0px 12px rgba(189, 189, 189, 0.25)
@@ -128,11 +123,9 @@ nav ul{
 /* Feature Section Rules */
 #feature h2{
     font-size:33px;
-    letter-spacing: 3%;
 }
 #feature h2+p{
     font-size:20px;
-    letter-spacing: 3%;
 }
 #feature{
     background: #4D0C73;
@@ -219,7 +212,6 @@ nav ul{
 #solar h2+p{
     font-size: 21px;
     line-height: 25px;
-    Letter-spacing: 1%;
     color: #000000;
 }
 #solar svg+p{
@@ -241,6 +233,7 @@ nav ul{
     background-color:rgb(70, 16, 104);
   
  }
+
 /* Footer Rules */
 footer{
     background:#340B4D;
@@ -248,7 +241,7 @@ footer{
 footer ul li{
     list-style: none;
     font-size:20px;
-    color:#ffff;
+    color:#ffffff;
     margin-left:-2em;
     margin-top:10px;
 }
@@ -302,7 +295,6 @@ header#scalar{
     height:40em;
     width: 100%;
     background-size: cover;
-    /* background-repeat: no-repeat; */
 }
 header#scalar .overlay{
     background:linear-gradient(rgba(255, 255, 81, 0.589),#5D0E8A);
