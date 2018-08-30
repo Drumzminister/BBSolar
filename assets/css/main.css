@@ -289,3 +289,66 @@ img.fb{
 .middlepatch{
     margin-top:-13em;
 }
+
+
+/* Why Go Scalar */
+
+header#scalar{
+    background: url("../images/bg_scalar.png") no-repeat;
+    height:40em;
+    width: 100%;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+header#scalar .overlay{
+    background:linear-gradient(rgba(255, 255, 81, 0.589),#5D0E8A);
+    height:40em;
+    width: 100%;
+}
+.gosolar{
+    padding:6em 3em;   
+    margin-top:12em;
+    background: #FFFBEB;
+}
+.solarhr{
+    position: absolute;
+    width:20%;
+    bottom:2em;
+    left:16em;
+    bottom:-2.4em;
+    transform: rotate(90deg);
+    border: 0;
+    border-bottom: 1px solid rgba(52, 11, 77, 0.75)
+}
+.gosolar h1{
+    color:#340B4D;
+    font-size: 45px;
+}
+
+#scalarcontact .contact{
+    background: #340B4D;
+    font-size:17px;
+}
+#scalarcontact .contact:hover{
+    background: rgb(69, 15, 102);
+    font-size:17px;
+}
+#scalarcontact h1{
+    font-family: 'Lancelot', cursive;
+    font-size: 80px;
+    margin-left:15px;
+    color:#000000;
+}
+#scalarcontact h3{
+    font-size: 23px;
+    color:#340B4D;
+}
+.list:nth-child(2n){
+    background:#FCD110;
+}
+#solar .moon{
+    position: absolute;
+    z-index: 99;
+    margin-top:-30em;
+    margin-left:-1.5em;
+}
