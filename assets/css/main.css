@@ -8,6 +8,9 @@
 .secondarycolor{
     color:#FCCE01;
 }
+.secondarycolor:hover{
+    color:rgb(224, 188, 24);
+}
 .primarycolor{
     color: #340B4D !important;
     font-weight: bold;
@@ -15,6 +18,12 @@
 .primarycolor:hover{
     color: rgb(84, 33, 119) !important;
     font-weight: bold;
+}
+.primarybgcolor{
+    background: #340B4D !important;
+}
+.primarybgcolor:hover{
+    background-color: rgb(84, 33, 119) !important;
 }
 header{
     background: url("../images/bg_header.png") no-repeat;
