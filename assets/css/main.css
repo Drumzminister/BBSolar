@@ -341,10 +341,36 @@ header#scalar .overlay{
 }
 .list:nth-child(2n){
     background:#FCD110;
+    position: relative;
+}
+.list:nth-child(3n){
+    position: relative;
 }
 #solar .moon{
     position: absolute;
     z-index: 99;
     margin-top:-30em;
     margin-left:-1.5em;
+}
+.rightfloat{
+    position: absolute;
+    transform: rotate(-90deg);
+    font-size:22px;
+    left:-6.5em;
+    bottom:5em;    
+}
+.sociallink{
+    position: absolute;
+    transform: rotate(-90deg);
+    right:-7em;
+    bottom:3em;
+}
+.sociallink ul li{
+    list-style: none;
+    display: inline;
+}
+.sociallink i{
+   border-radius: 50%;
+   color:#4D0C73;
+   font-size: .8em;
 }
