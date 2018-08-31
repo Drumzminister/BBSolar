@@ -2,6 +2,7 @@
     font-family: 'Lato', sans-serif;
 }
 
+
 .secondarybgcolor{
     background-color:#FCCE01 !important;
 }
@@ -306,6 +307,7 @@ img.fb{
     overflow-x: hidden;
 }
 
+
 header#scalar{
     background: url("../images/bg_scalar.png") no-repeat;
     height:40em;
@@ -390,3 +392,5 @@ header#scalar .overlay{
    color:#4D0C73;
    font-size: .8em;
 }
+
+
