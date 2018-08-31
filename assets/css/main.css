@@ -16,6 +16,11 @@
     color: #340B4D !important;
     font-weight: bold;
 }
+.primarycolor2{
+    color: #5D0E8A !important;
+    font-weight: 900;
+}
+
 .primarycolor:hover{
     color: rgb(84, 33, 119) !important;
     font-weight: bold;
@@ -393,4 +398,39 @@ header#scalar .overlay{
    font-size: .8em;
 }
 
+/* Contact Page Rules */
 
+.contacthr{
+    width:50px;
+    border:3px solid #FCD110;
+    margin-left:0;
+}
+.contacthr + p, .last{
+    font-size:18px;
+    font-weight: bold;
+}
+
+textarea{
+    height:250px !important;
+    resize: none;
+}
+input{
+    background-color: rgba(227, 227, 227, 0.25);
+    border:1px solid #C4C4C4;
+    padding:20px  20px 20px 25px !important;
+}
+input[type=submit]{
+    font-size: 23px;
+}
+img[alt=map]{
+    width:80%;
+    height: auto;
+    margin-left:6em;
+}
+.yellowblock{
+    width:13em;
+    height:26em;
+    background: #FCD110;
+    margin-right: -7.5em;
+    margin-top: -33em;
+}
