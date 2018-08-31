@@ -299,6 +299,13 @@ img.fb{
 
 /* Why Go Scalar */
 
+#sc{
+    overflow-x: hidden;
+}
+#sk{
+    overflow-x: hidden;
+}
+
 header#scalar{
     background: url("../images/bg_scalar.png") no-repeat;
     height:40em;
